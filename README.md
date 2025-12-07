@@ -13,12 +13,14 @@ pnpm dev
 
 ## Database Setup
 
-Enable pgvector extension before running migrations:
-
-**Supabase/Neon:**
+Enable pgvector extension (Neon/Supabase/Local):
 
 ```sql
+-- Enable vector extension
 CREATE EXTENSION IF NOT EXISTS vector;
+
+-- Verify extension is enabled
+SELECT * FROM pg_extension WHERE extname = 'vector';
 ```
 
 Then run: `pnpm db:push`
