@@ -2,6 +2,8 @@
 
 TypeScript template for OpenAI applications with modern tooling.
 
+![](./docs/openai_ts_preview.png)
+
 ## Setup
 
 ```bash
