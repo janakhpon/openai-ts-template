@@ -38,4 +38,4 @@ Then run: `pnpm db:push`
 ## Environment Variables
 
 - `OPENAI_API_KEY` - OpenAI API key
-- `DATABASE_URL` - PostgreSQL connection string
+- `DATABASE_URL` - PostgreSQL connection string from Neon/Supabase/Local/Selfhosted
