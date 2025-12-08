@@ -10,7 +10,7 @@ TypeScript template for OpenAI applications with modern tooling.
 pnpm install
 cp .env.example .env
 # Add OPENAI_API_KEY and DATABASE_URL
-pnpm dev
+pnpm dev || npx tsx src/index.ts
 ```
 
 ## Database Setup
